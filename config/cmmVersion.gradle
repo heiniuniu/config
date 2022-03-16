@@ -15,12 +15,6 @@ ext {
 //            DYInitCommon         :"com.douyu.lib:DYInit-common:0.4.15",
     ]
 
-    signConfig = [
-            alias        : 'douyu',
-            keyPassword  : 'douyu123456',
-            storePassword: 'douyu123456',
-    ]
-
     depsCMM = [
             kotlinStdlib     : "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
             coreKtx:'androidx.core:core-ktx:1.3.1',
