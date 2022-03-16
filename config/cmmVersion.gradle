@@ -5,17 +5,6 @@ ext {
             targetSdkVersion : 29,
             compileSdkVersion: 29,
     ]
-
-    mavenConfig = [
-            aliyunPublic              : 'https://maven.aliyun.com/repository/public',
-            aliyunMineRelease         : 'https://packages.aliyun.com/maven/repository/2203143-release-DlpQtU/',
-            aliyunMineReleaseUsername : '5ea838a4afcc954c8998af03',
-            aliyunMineReleasePwd      : 'wM(nt(Kf[04r',
-            aliyunMineSnapShot        : 'https://packages.aliyun.com/maven/repository/2203143-snapshot-Qe5jPa/',
-            aliyunMineSnapShotUsername: '5ea838a4afcc954c8998af03',
-            aliyunMineSnapShotPwd     : 'wM(nt(Kf[04r'
-    ]
-
     classpath = [
             gradle                        : 'com.android.tools.build:gradle:4.0.1',
 //            DYRouterCompiler     :"com.douyu.plugin:DYRouter-compiler:0.2.3.1",
