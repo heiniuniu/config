@@ -28,6 +28,6 @@ ext {
     ]
 
     sdkDeps = [
-            SdkNet: 'com.elcode.sdk:SdkNet:1.0.0'
+            SdkNet: 'com.elcode.sdk:SdkNet:1.0.1'
     ]
 }
