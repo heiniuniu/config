@@ -16,14 +16,18 @@ ext {
     ]
 
     depsCMM = [
-            kotlinStdlib     : "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
-            coreKtx:'androidx.core:core-ktx:1.3.1',
-            appcompat:'androidx.appcompat:appcompat:1.2.0',
-            navFragmentKtx:'androidx.navigation:navigation-fragment-ktx:2.3.0',
-            navUIKtx:'androidx.navigation:navigation-ui-ktx:2.3.0',
-            constraintlayout:'androidx.constraintlayout:constraintlayout:1.1.3',
-            junit:'junit:junit:4.12',
-            extJunit:'androidx.test.ext:junit:1.1.1',
-            espressoCore:'androidx.test.espresso:espresso-core:3.2.0'
+            kotlinStdlib    : "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+            coreKtx         : 'androidx.core:core-ktx:1.3.1',
+            appcompat       : 'androidx.appcompat:appcompat:1.2.0',
+            navFragmentKtx  : 'androidx.navigation:navigation-fragment-ktx:2.3.0',
+            navUIKtx        : 'androidx.navigation:navigation-ui-ktx:2.3.0',
+            constraintlayout: 'androidx.constraintlayout:constraintlayout:1.1.3',
+            junit           : 'junit:junit:4.12',
+            extJunit        : 'androidx.test.ext:junit:1.1.1',
+            espressoCore    : 'androidx.test.espresso:espresso-core:3.2.0'
+    ]
+
+    sdkDeps = [
+            SdkNet: 'com.elcode.sdk:SdkNet:1.0.0'
     ]
 }
